@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Main from "./componets/Main";
-import Sidebar from "./componets/Sidebar";
+import Sidebar from "./componets/sidebar";
 import "./App.css";
 
 function App() {
