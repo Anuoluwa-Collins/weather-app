@@ -42,7 +42,7 @@ function App() {
   };
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 w-full min-h-screen text-gray-500 sm:pt-20">
+    <div className="sm:grid grid-cols-1 sm:grid-cols-3 w-full min-h-screen text-gray-500 sm:pt-20">
       {/* Input Section for City */}
       <div className="col-span-3 flex justify-center p-4">
         <form onSubmit={handleCitySubmit} className="flex space-x-2">
